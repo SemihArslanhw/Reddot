@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-900 text-white
+}
+
+@layer utilities {
+    .w-800{
+        width: 800px;
+    }
+    .w-screen-2{
+        width: 60vw;
+    }
+
+    .h-screen-2{
+        height: 90vw;
+    }
+}
